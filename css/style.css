@@ -1,0 +1,46 @@
+/*css document*/
+
+#zorro {
+	height: 100px;
+}
+
+
+.nav a {
+	position: relative;
+	left: 500px;
+	top: 30px;
+	color: white;
+	padding: 15px;
+	55px;
+	text-align: center;
+	display: inline-block;
+	background-color: black;
+	color: deepskyblue;
+}
+
+a:hover a:active {
+	background-color: bisque;
+	color: darkred
+}
+
+#resume {
+	height: 100px;
+}
+
+#deku {
+	height: 100px;
+}
+
+#bakugo {
+	height: 100px;
+}
+
+#todoroki {
+	height: 100px;
+}
+body{
+	background-image: url(Health-Care-Insurance.jpg);
+	
+	
+	
+}
