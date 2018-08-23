@@ -1,46 +1,209 @@
 /*css document*/
 
-#zorro {
-	height: 100px;
+@font-face {
+	font-family: 'Petit Formal Script', cursive;
+	font-family: 'Cookie', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Faster One', cursive;
+	font-family: 'Londrina Outline', cursive;
+	font-family: 'El Messiri', sans-serif;
+	font-family: 'Chathura', sans-serif;
+	font-family: 'Cinzel', serif;
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Slabo 27px', serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Jura', sans-serif;
+	font-family: 'Lustria', serif;
 }
 
-
-.nav a {
-	position: relative;
-	left: 500px;
-	top: 30px;
-	color: white;
-	padding: 15px;
-	55px;
+body {
+	margin: 0px;
 	text-align: center;
+	color: black;
+	background-image: url(leaves.jpeg);
+	opacity: 0%;
+	height:100%;
+}
+
+h {
+	text-align: center;
+}
+
+p {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+.abcolor {
+	background-color: rgba(141, 153, 174, .45);
+}
+
+.back {
+	background-color: rgba(141, 153, 174, .45);
+}
+
+.front {
+	background-color: rgba(48, 99, 142, .45);
+	height: auto;
+}
+
+.head {
+	background-color: rgba(91, 192, 235, .45);
+	height: 100%;
+}
+
+.logo {
+	margin: 5px auto;
+	text-align: center auto;
+	font-family: 'Faster One', cursive;
+	font-size: 30px;
+	color:#;
+	
+}
+
+.nav {
+	width: 60%;
+	font-size: 19px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	letter-spacing: 2px;
+	padding: 15px 65px 15px 65px;
+	text-align: left;
 	display: inline-block;
-	background-color: black;
-	color: deepskyblue;
+	background-color: rgba(247, 172, 98, .70);
+	color: rgba(43, 45, 66, 1);
+	text-decoration: none;
+	font-family: 'Cormorant Infant', serif;
 }
 
 a:hover a:active {
-	background-color: bisque;
-	color: darkred
+	opacity: 70%;
+	background-color: rgba(232, 241, 242, .75);
 }
 
-#resume {
-	height: 100px;
+#hero {
+	width: 100%;
+	height: 25%;
+	display: inline-block;
 }
 
-#deku {
-	height: 100px;
+#me{
+	height:9%;
+	width:15%;
+	display: inline-block;
+	float:left;
+	padding: 25px 65px 15px 65px
 }
-
-#bakugo {
-	height: 100px;
+#zorro {
+	height: 200px;
+	float: left;
+	padding: 2px;
+	margin: 15px;
+	align-self: center;
 }
 
 #todoroki {
-	height: 100px;
+	height: 520px;
+	width: 420px;
+	;
 }
-body{
-	background-image: url(Health-Care-Insurance.jpg);
-	
-	
-	
+
+#bakugo {
+	height: 520px;
+	width: 420px;
+}
+
+#deku {
+	height: 5%;
+	width: auto;
+	float: left;
+	padding: 15px 65px 15px 65px;
+}
+
+#experience {
+	padding: 15px 65px 15px 65px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#community {
+	padding: 15px 65px 15px 65px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#skills {
+	padding: 15px 65px 15px 65px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#hobbies {
+	padding: 15px 65px 15px 65px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#education {
+	padding: 15px 65px 15px 65px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+ol {
+	text-align: center;
+	margin: 10px;
+	padding: 2px;
+	size: 22px;
+}
+
+#offer {
+	width: 40%;
+	border: 1px;
+	padding: 3px;
+	margin: 5px;
+	text-align: center;
+	display: inline-block;
+}
+
+.obt {
+	float: left;
+}
+
+.hobby {
+	float: right;
+}
+
+.contact {
+	font-size: 18px;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-image{
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("hero.jpg");
+	height:35%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 25px 25px 25px 25px
+
+}
+.hero-text{
+	text-align: center;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgba(247, 172, 98, 1);
+}
+.material-icons{
+	font-size: 18px;
+	color: rgba(141, 153, 174,.45);
 }
