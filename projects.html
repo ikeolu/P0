@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Projects</title>
+	<title>Contact</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chathura|Cookie|El+Messiri|Faster+One|Londrina+Outline|Petit+Formal+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Infant:400,500,600|Jura:400,500|Lustria|Merriweather|Nanum+Myeongjo|Sawarabi+Gothic|Slabo+27px" rel="stylesheet">
@@ -24,20 +24,34 @@
 	</div>
 
 	<div class="front">
-	<div id="obt">
-		<h2>OBT Projects</h2>
-		<img id="todoroki" src="images/morea.jpg">
-		<p>write something here</p>
-	</div>
-	</div>
+	<form>
+	<div class="contact">
+			<h3>Contact Me</h3>
+			<form>
+				<label>Name<br>
+				<input type="text"name="fullname" required>
+			</label>
 
-	<div class="back">
-	<div id="hobby">
-		<h2> Hobby</h2>
-		<img id="bakugo" src="images/pp2.jpg">
-		<img id="soul" src="images/aboutph.jpg">
-		<p> A description of project</p>
-	</div>
+				<br>
+				<label>Email<br>
+			<input type="email"name="eml" required>
+			</label>
+
+				<br>
+				<label>Phone Number<br>
+			<input type="numbers"name="digits"required>
+			</label>
+
+				<br>
+				<h4>Comment</h4>
+				<textarea rows="10" cols="50" name="comment" form="userform"></textarea>
+
+				<br>
+
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		</form>
 	<br>
 	<form method="get" action="index.html">
 		<button type="submit">Contact me</button>

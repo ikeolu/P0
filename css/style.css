@@ -80,7 +80,7 @@ a {
 	font-family: 'Cormorant Infant', serif;
 }
 
-a:hover a:active {
+a:hover{
 	opacity: 70%;
 	background-color: rgba(232, 241, 242, .75);
 }
@@ -185,13 +185,14 @@ ol {
 }
 
 .hero-image{
+	box-sizing: border-box;
 	 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("hero.jpg");
-	height:35%;
-	background-position: center;
+	height:50%;
+	width: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	padding: 25px 25px 25px 25px
+	position: static;
+	padding: 25px 100px 25px 150px;
+	align-content: center;
 
 }
 .hero-text{
@@ -201,9 +202,10 @@ ol {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: rgba(247, 172, 98, 1);
+	color: rgba(48, 99, 142, 1
+	);
 }
 .material-icons{
 	font-size: 18px;
-	color: rgba(141, 153, 174,.45);
+	color:rgba(247, 172, 98, .70);
 }
