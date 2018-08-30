@@ -79,12 +79,10 @@ a {
 	display: inline-block;
 	background-color: rgba(247, 172, 98, .70);
 	color: rgba(43, 45, 66, 1);
-	text-decoration: none;
 	font-family: 'Cormorant Infant', serif;
 }
 
 a:hover{
-	opacity: 70%;
 	background-color: rgba(232, 241, 242, .75);
 }
 
@@ -95,8 +93,8 @@ a:hover{
 }
 
 #me{
-	height:200px;
-	width:150px;
+	height:360px;
+	width:360px;
 	display: inline-block;
 	float:left;
 	padding: 25px 65px 15px 65px
